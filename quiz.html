@@ -8,6 +8,10 @@
     <title>Kylie quiz</title>
     <script src="domManipulation.js" defer></script>
 </head>
+
+
+    
+
 <body>
     <header>
         <ul>
@@ -18,12 +22,27 @@
         </ul>
     </header>
 
-    <main>
-        <h1> Hello World</h1>
-    </main>
+   <main>
 
-    <footer>
-<h2>this is the footer</h2>
-    </footer>
+       <div class="container">
+           <div id="question-container" class="hide">
+               <div id="question">Question:</div>
+               <div id="answer-btns" class="btn-grid">
+                   <button class="btn">answer 1</button>
+                   <button class="btn">answer 2</button>
+                   <button class="btn">answer 3</button>
+                   <button class="btn">answer 4</button>
+                </div>
+            </div>
+        <div class="controls">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="next-btn" class="btn">Next</button>
+        </div>   
+       </div>
+   </main>
+<footer>
+
+</footer>
+   
 </body>
 </html>
