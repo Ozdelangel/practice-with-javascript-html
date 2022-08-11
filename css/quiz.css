@@ -113,3 +113,18 @@
         box-shadow: 4px 5px black;
     }
 
+    body.correct {
+        color: green;
+    }
+
+    body.wrong {
+       color: red;
+    }
+
+    .btn.correct {
+        background-color: green;
+    }
+
+    .btn.wrong {
+        background-color: red;
+    }
