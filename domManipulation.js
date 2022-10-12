@@ -108,45 +108,51 @@ function clearStatusClass(element){
 // we need to build our questions with objects and arrays
 const questions = [
     {
-        question: 'what is 2 + 2?',
+        question: 'What city was Olive born in?',
         answers: [
-            {text:'22', correct: false},
-            {text: '4', correct: true}
+            {text:'Damascus', correct: false},
+            {text:'Vancouver', correct: false},
+            {text: 'Portland', correct: true},
+            {text:'Drooly lane', correct: false},
         ]
     },
     {
-        question: 'what is 6 + 6?',
+        question: 'Is Olive a docile baby?',
         answers: [
-            {text:'22', correct: false},
-            {text: '12', correct: true}
+            {text:'YES', correct: false},
+            {text: 'No', correct: true}
         ]
     },
     {
-        question: 'what is 5 + 4?',
+        question: 'what is Olives favorite Movie?',
         answers: [
-            {text:'22', correct: false},
-            {text: '9', correct: true}
+            {text:'Titanic', correct: false},
+            {text:'The Sandlot', correct: false},
+            {text:'Monster Inc.', correct: true},
+            {text: 'The Little Mermaid', correct: false}
         ]
     },
     {
-        question: 'what is 7 + 7?',
+        question: 'What city did Kylie and her husband meet?',
         answers: [
-            {text: '14', correct: true},
-            {text:'22', correct: false}
+            {text: 'Vancouver', correct: false},
+            {text:'Boring', correct: false},
+            {text:'Camas', correct: false},
+            {text:'Portland', correct: true}
         ]
     },
     {
-        question: 'what is 10 + 10?',
+        question: 'Is Bancroft kylies middle name?',
         answers: [
-            {text: '20', correct: true},
-            {text:'22', correct: false}
+            {text: 'False', correct: true},
+            {text:'True', correct: false}
         ]
     },
     {
-        question: 'what is 7 * 3?',
+        question: 'did Kylie and her husband meet when they were in highschool?',
         answers: [
-            {text:'22', correct: false},
-            {text: '21', correct: true}
+            {text:'YES', correct: false},
+            {text: 'NO', correct: true}
         ]
     }
 
